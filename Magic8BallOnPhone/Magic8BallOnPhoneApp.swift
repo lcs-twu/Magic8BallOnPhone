@@ -11,7 +11,7 @@ import SwiftUI
 struct Magic8BallOnPhoneApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

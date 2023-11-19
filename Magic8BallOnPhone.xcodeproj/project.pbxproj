@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		81245DCA2AE6A6C300560FDA /* Magic8BallOnPhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81245DC92AE6A6C300560FDA /* Magic8BallOnPhoneApp.swift */; };
-		81245DCC2AE6A6C300560FDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81245DCB2AE6A6C300560FDA /* ContentView.swift */; };
+		81245DCC2AE6A6C300560FDA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81245DCB2AE6A6C300560FDA /* MainView.swift */; };
 		81245DCE2AE6A6C500560FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81245DCD2AE6A6C500560FDA /* Assets.xcassets */; };
 		81245DD12AE6A6C500560FDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81245DD02AE6A6C500560FDA /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		81245DC62AE6A6C300560FDA /* Magic8BallOnPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magic8BallOnPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81245DC92AE6A6C300560FDA /* Magic8BallOnPhoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic8BallOnPhoneApp.swift; sourceTree = "<group>"; };
-		81245DCB2AE6A6C300560FDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81245DCB2AE6A6C300560FDA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		81245DCD2AE6A6C500560FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81245DD02AE6A6C500560FDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		81245DD22AE6A6C500560FDA /* Magic8BallOnPhone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Magic8BallOnPhone.entitlements; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				81245DC92AE6A6C300560FDA /* Magic8BallOnPhoneApp.swift */,
-				81245DCB2AE6A6C300560FDA /* ContentView.swift */,
+				81245DCB2AE6A6C300560FDA /* MainView.swift */,
 				81245DCD2AE6A6C500560FDA /* Assets.xcassets */,
 				81245DD22AE6A6C500560FDA /* Magic8BallOnPhone.entitlements */,
 				81245DCF2AE6A6C500560FDA /* Preview Content */,
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81245DCC2AE6A6C300560FDA /* ContentView.swift in Sources */,
+				81245DCC2AE6A6C300560FDA /* MainView.swift in Sources */,
 				81245DCA2AE6A6C300560FDA /* Magic8BallOnPhoneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,8 +287,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = twu.Magic8BallOnPhone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,8 +317,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = twu.Magic8BallOnPhone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
